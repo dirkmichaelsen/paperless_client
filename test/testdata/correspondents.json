@@ -1,0 +1,257 @@
+{
+  "count": 287,
+  "next": "http://nas:8930/api/correspondents/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 233,
+      "slug": "10gtek",
+      "name": "10Gtek",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 1,
+      "last_correspondence": "2022-05-31T00:00:00+02:00"
+    },
+    {
+      "id": 126,
+      "slug": "11",
+      "name": "1&1",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 7,
+      "last_correspondence": "2016-05-19T00:00:00+02:00"
+    },
+    {
+      "id": 123,
+      "slug": "academic-press",
+      "name": "Academic Press",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 1,
+      "last_correspondence": "2022-05-30T14:43:42+02:00"
+    },
+    {
+      "id": 262,
+      "slug": "adac",
+      "name": "ADAC",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 2,
+      "last_correspondence": "2021-07-19T16:00:45+02:00"
+    },
+    {
+      "id": 115,
+      "slug": "addison-wesley",
+      "name": "Addison Wesley",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 1,
+      "last_correspondence": "2009-11-20T00:00:00+01:00"
+    },
+    {
+      "id": 20,
+      "slug": "adobe",
+      "name": "Adobe",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 4,
+      "last_correspondence": "2022-05-30T16:35:02+02:00"
+    },
+    {
+      "id": 154,
+      "slug": "afterbuy",
+      "name": "afterBuy",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 1,
+      "last_correspondence": "2015-05-28T17:42:56+02:00"
+    },
+    {
+      "id": 99,
+      "slug": "agile-bits",
+      "name": "Agile Bits",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 1,
+      "last_correspondence": "2011-03-09T00:00:00+01:00"
+    },
+    {
+      "id": 165,
+      "slug": "ak-baddesign",
+      "name": "AK-Baddesign",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 2,
+      "last_correspondence": "2007-05-21T21:41:26+02:00"
+    },
+    {
+      "id": 127,
+      "slug": "akku-king",
+      "name": "Akku-King",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 2,
+      "last_correspondence": "2022-05-30T16:35:07+02:00"
+    },
+    {
+      "id": 67,
+      "slug": "allianz",
+      "name": "Allianz",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 3,
+      "last_correspondence": "2022-01-20T00:00:00+01:00"
+    },
+    {
+      "id": 92,
+      "slug": "amazon",
+      "name": "Amazon",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 22,
+      "last_correspondence": "2022-06-16T10:50:49+02:00"
+    },
+    {
+      "id": 283,
+      "slug": "andrea-korb",
+      "name": "Andrea Korb",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 1,
+      "last_correspondence": "2022-07-02T13:43:25+02:00"
+    },
+    {
+      "id": 166,
+      "slug": "anker",
+      "name": "Anker",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 1,
+      "last_correspondence": "2015-09-27T06:48:05.273000+02:00"
+    },
+    {
+      "id": 250,
+      "slug": "apollo-optik",
+      "name": "Apollo Optik",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 2,
+      "last_correspondence": "2017-07-06T00:00:00+02:00"
+    },
+    {
+      "id": 21,
+      "slug": "apple",
+      "name": "Apple",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 38,
+      "last_correspondence": "2022-05-30T10:55:25+02:00"
+    },
+    {
+      "id": 100,
+      "slug": "application-systems-heidelberg",
+      "name": "Application Systems Heidelberg",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 3,
+      "last_correspondence": "2009-10-21T00:00:00+02:00"
+    },
+    {
+      "id": 167,
+      "slug": "arag",
+      "name": "ARAG",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 4,
+      "last_correspondence": "2022-01-20T00:00:00+01:00"
+    },
+    {
+      "id": 79,
+      "slug": "ard-fernsehlotterie",
+      "name": "ARD Fernsehlotterie",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 1,
+      "last_correspondence": "2009-11-23T13:37:52+01:00"
+    },
+    {
+      "id": 121,
+      "slug": "att-bell-laboratories",
+      "name": "AT&T Bell Laboratories",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 1,
+      "last_correspondence": "2022-05-30T14:43:40+02:00"
+    },
+    {
+      "id": 168,
+      "slug": "audi",
+      "name": "Audi",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 2,
+      "last_correspondence": "2004-09-28T21:52:38+02:00"
+    },
+    {
+      "id": 2,
+      "slug": "audi-ahrensburg",
+      "name": "Audi Ahrensburg",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 4,
+      "last_correspondence": "2016-11-09T00:00:00+01:00"
+    },
+    {
+      "id": 128,
+      "slug": "autohaus-heuberger",
+      "name": "Autohaus Heuberger",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 2,
+      "last_correspondence": "2006-06-12T16:37:01+02:00"
+    },
+    {
+      "id": 129,
+      "slug": "auto-wichert",
+      "name": "Auto Wichert",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 1,
+      "last_correspondence": "2010-03-08T16:36:56+01:00"
+    },
+    {
+      "id": 160,
+      "slug": "avantgate",
+      "name": "Avantgate",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 1,
+      "last_correspondence": "2013-02-09T18:58:47+01:00"
+    }
+  ]
+}

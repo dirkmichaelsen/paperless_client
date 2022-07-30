@@ -1,0 +1,282 @@
+{
+  "count": 69,
+  "next": "http://nas:8930/api/tags/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 12,
+      "slug": "abo",
+      "name": "abo",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 6
+    },
+    {
+      "id": 36,
+      "slug": "agb",
+      "name": "agb",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 4
+    },
+    {
+      "id": 41,
+      "slug": "akkorde",
+      "name": "akkorde",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 2
+    },
+    {
+      "id": 63,
+      "slug": "apple",
+      "name": "apple",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 2
+    },
+    {
+      "id": 2,
+      "slug": "auto",
+      "name": "auto",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 78
+    },
+    {
+      "id": 13,
+      "slug": "bank",
+      "name": "bank",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 973
+    },
+    {
+      "id": 68,
+      "slug": "batterie",
+      "name": "batterie",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 1
+    },
+    {
+      "id": 31,
+      "slug": "bewerbung",
+      "name": "bewerbung",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 23
+    },
+    {
+      "id": 24,
+      "slug": "buch",
+      "name": "buch",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 48
+    },
+    {
+      "id": 21,
+      "slug": "computer",
+      "name": "computer",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 14
+    },
+    {
+      "id": 69,
+      "slug": "covid19",
+      "name": "covid19",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 1
+    },
+    {
+      "id": 6,
+      "slug": "einrichtung",
+      "name": "einrichtung",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 12
+    },
+    {
+      "id": 53,
+      "slug": "elektronik",
+      "name": "elektronik",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 6
+    },
+    {
+      "id": 50,
+      "slug": "ersatzteil",
+      "name": "ersatzteil",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 2
+    },
+    {
+      "id": 25,
+      "slug": "fachbuch",
+      "name": "fachbuch",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 47
+    },
+    {
+      "id": 7,
+      "slug": "fotografie",
+      "name": "fotografie",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 66
+    },
+    {
+      "id": 52,
+      "slug": "garage",
+      "name": "garage",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 1
+    },
+    {
+      "id": 3,
+      "slug": "garten",
+      "name": "garten",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 2
+    },
+    {
+      "id": 27,
+      "slug": "gewinnspiel",
+      "name": "gewinnspiel",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 4
+    },
+    {
+      "id": 40,
+      "slug": "gitarre",
+      "name": "gitarre",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 2
+    },
+    {
+      "id": 45,
+      "slug": "grillen",
+      "name": "grillen",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 2
+    },
+    {
+      "id": 22,
+      "slug": "hardware",
+      "name": "hardware",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 27
+    },
+    {
+      "id": 4,
+      "slug": "haushalt",
+      "name": "haushalt",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 27
+    },
+    {
+      "id": 18,
+      "slug": "heike",
+      "name": "heike",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 11
+    },
+    {
+      "id": 58,
+      "slug": "impfung",
+      "name": "impfung",
+      "colour": 1,
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "is_inbox_tag": false,
+      "document_count": 3
+    }
+  ]
+}

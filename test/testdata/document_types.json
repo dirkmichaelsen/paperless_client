@@ -1,0 +1,232 @@
+{
+  "count": 63,
+  "next": "http://nas:8930/api/document_types/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 1,
+      "slug": "anfrage",
+      "name": "Anfrage",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 1
+    },
+    {
+      "id": 2,
+      "slug": "angebot",
+      "name": "Angebot",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 8
+    },
+    {
+      "id": 63,
+      "slug": "anleitung",
+      "name": "Anleitung",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 1
+    },
+    {
+      "id": 3,
+      "slug": "antrag",
+      "name": "Antrag",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 2
+    },
+    {
+      "id": 4,
+      "slug": "aufsatz",
+      "name": "Aufsatz",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 3
+    },
+    {
+      "id": 5,
+      "slug": "auftrag",
+      "name": "Auftrag",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 7
+    },
+    {
+      "id": 6,
+      "slug": "auftragsbestatigung",
+      "name": "Auftragsbestätigung",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 6
+    },
+    {
+      "id": 8,
+      "slug": "bedienungsanleitung",
+      "name": "Bedienungsanleitung",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 140
+    },
+    {
+      "id": 61,
+      "slug": "begruung",
+      "name": "Begrüßung",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 1
+    },
+    {
+      "id": 9,
+      "slug": "bescheid",
+      "name": "Bescheid",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 17
+    },
+    {
+      "id": 10,
+      "slug": "bescheinigung",
+      "name": "Bescheinigung",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 14
+    },
+    {
+      "id": 11,
+      "slug": "bestatigung",
+      "name": "Bestätigung",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 4
+    },
+    {
+      "id": 12,
+      "slug": "bestellbestatigung",
+      "name": "Bestellbestätigung",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 22
+    },
+    {
+      "id": 13,
+      "slug": "bestellung",
+      "name": "Bestellung",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 51
+    },
+    {
+      "id": 16,
+      "slug": "bewerbung",
+      "name": "Bewerbung",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 7
+    },
+    {
+      "id": 18,
+      "slug": "brief",
+      "name": "Brief",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 4
+    },
+    {
+      "id": 19,
+      "slug": "buch",
+      "name": "Buch",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 36
+    },
+    {
+      "id": 55,
+      "slug": "einkommensteuererklarung",
+      "name": "Einkommensteuererklärung",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 3
+    },
+    {
+      "id": 21,
+      "slug": "entgeltaufstellung",
+      "name": "Entgeltaufstellung",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 1
+    },
+    {
+      "id": 53,
+      "slug": "erstattung",
+      "name": "Erstattung",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 2
+    },
+    {
+      "id": 22,
+      "slug": "ertragnisaufstellung",
+      "name": "Erträgnisaufstellung",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 3
+    },
+    {
+      "id": 23,
+      "slug": "expose",
+      "name": "Expose",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 1
+    },
+    {
+      "id": 24,
+      "slug": "freistellungsauftrag",
+      "name": "Freistellungsauftrag",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 1
+    },
+    {
+      "id": 25,
+      "slug": "gedicht",
+      "name": "Gedicht",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 1
+    },
+    {
+      "id": 20,
+      "slug": "gehaltsabrechnung",
+      "name": "Gehaltsabrechnung",
+      "match": "",
+      "matching_algorithm": 1,
+      "is_insensitive": true,
+      "document_count": 8
+    }
+  ]
+}
