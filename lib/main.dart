@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:paperless_client/correspondents.dart';
+import 'package:paperless_client/correspondents_screen.dart';
+import 'package:paperless_client/document_types_screen.dart';
 
 void main() {
   runApp(const PaperlessClientApp());
@@ -65,13 +66,26 @@ class _PaperlessClientPageState extends State<PaperlessClientPage> {
       ),
       body: Builder(builder: (context) {
         return Center(
-          child: OutlinedButton(
-            key: const Key('correspondent_button'),
-            child: const Text('Correspondents'),
-            onPressed: () {
-              Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) => const CorrespondentsScreen()));
-            },
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              OutlinedButton(
+                key: const Key('correspondent_button'),
+                child: const Text('Correspondents'),
+                onPressed: () {
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context) => const CorrespondentsScreen()));
+                },
+              ),
+              OutlinedButton(
+                key: const Key('document_types_button'),
+                child: const Text('Document Types'),
+                onPressed: () {
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context) => const DocumentTypesScreen()));
+                },
+              ),
+            ],
           ),
         );
       }),
