@@ -1,5 +1,5 @@
-import 'package:paperless_client/document_type.dart';
-import 'package:paperless_client/tag.dart';
+import 'package:paperless_client/model/document_type.dart';
+import 'package:paperless_client/model/tag.dart';
 
 class DocumentTypeResult {
   final int count;

@@ -1,12 +1,12 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:paperless_client/correspondent.dart';
-import 'package:paperless_client/correspondent_result.dart';
-import 'package:paperless_client/document_type.dart';
-import 'package:paperless_client/document_type_result.dart';
-import 'package:paperless_client/tag.dart';
-import 'package:paperless_client/tag_result.dart';
+import 'package:paperless_client/model/correspondent.dart';
+import 'package:paperless_client/api/correspondent_result.dart';
+import 'package:paperless_client/model/document_type.dart';
+import 'package:paperless_client/api/document_type_result.dart';
+import 'package:paperless_client/model/tag.dart';
+import 'package:paperless_client/api/tag_result.dart';
 import 'package:paperless_client/utils.dart';
 
 const token = 'cc78ab87732e3f77de5e40f201b824d355f8801b';

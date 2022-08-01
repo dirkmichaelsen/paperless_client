@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:paperless_client/correspondent.dart';
-import 'package:paperless_client/document_type.dart';
-import 'package:paperless_client/rest_api.dart';
+import 'package:paperless_client/model/correspondent.dart';
+import 'package:paperless_client/api/rest_api.dart';
 
-class DocumentTypesScreen extends StatelessWidget {
-  const DocumentTypesScreen({Key? key}) : super(key: key);
+class CorrespondentsScreen extends StatelessWidget {
+  const CorrespondentsScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,10 +17,10 @@ class DocumentTypesScreen extends StatelessWidget {
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: const Text('Document Types'),
+        title: const Text('Correspondents'),
       ),
-      body: FutureBuilder<List<DocumentType>>(
-          future: fetchAllDocumentTypes(),
+      body: FutureBuilder<List<Correspondent>>(
+          future: fetchAllCorrespondents(),
           builder: (context, snapshot) {
             if (snapshot.hasData) {
               return ListView.builder(

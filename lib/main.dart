@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:paperless_client/correspondents_screen.dart';
-import 'package:paperless_client/document_types_screen.dart';
-import 'package:paperless_client/tags_screen.dart';
+import 'package:paperless_client/screens/correspondents_screen.dart';
+import 'package:paperless_client/screens/document_types_screen.dart';
+import 'package:paperless_client/screens/tags_screen.dart';
 
 void main() {
   runApp(const PaperlessClientApp());

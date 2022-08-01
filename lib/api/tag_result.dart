@@ -1,4 +1,4 @@
-import 'package:paperless_client/tag.dart';
+import 'package:paperless_client/model/tag.dart';
 
 class TagResult {
   final int count;

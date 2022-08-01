@@ -1,4 +1,4 @@
-import 'package:paperless_client/correspondent.dart';
+import 'package:paperless_client/model/correspondent.dart';
 
 class CorrespondentResult {
   final int count;
