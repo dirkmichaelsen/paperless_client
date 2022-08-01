@@ -7,6 +7,7 @@ import 'package:paperless_client/document_type.dart';
 import 'package:paperless_client/document_type_result.dart';
 import 'package:paperless_client/tag.dart';
 import 'package:paperless_client/tag_result.dart';
+import 'package:paperless_client/utils.dart';
 
 const token = 'cc78ab87732e3f77de5e40f201b824d355f8801b';
 const server = 'http://192.168.178.101:8930';
@@ -15,12 +16,15 @@ const urlTags = 'tags/';
 const urlDocumentTypes = 'document_types/';
 const urlCorrespondents = 'correspondents/';
 
+// --- Headers
+
+Map<String, String> headers() => {"Authorization": "Token $token"};
+
 // --- Tags ---
 
 Future<Tag> getTagById(int id) async {
-  final headers = {"Authorization": "Token $token"};
   final response =
-      await http.get(Uri.parse('$urlBase$urlTags/$id/'), headers: headers);
+      await http.get(Uri.parse('$urlBase$urlTags/$id/'), headers: headers());
   return Tag.fromJson(jsonDecode(response.body));
 }
 
@@ -37,9 +41,8 @@ Future<List<Tag>> fetchAllTags() async {
 }
 
 Future<TagResult> fetchTagsPaged(int page) async {
-  final headers = {"Authorization": "Token $token"};
   final response = await http.get(Uri.parse('$urlBase$urlTags?page=$page'),
-      headers: headers);
+      headers: headers());
   return TagResult.fromJson(jsonDecode(response.body));
 }
 
@@ -58,9 +61,9 @@ Future<List<DocumentType>> fetchAllDocumentTypes() async {
 }
 
 Future<DocumentTypeResult> fetchDocumentTypesPaged(int page) async {
-  final headers = {"Authorization": "Token $token"};
-  final response = await http
-      .get(Uri.parse('$urlBase$urlDocumentTypes?page=$page'), headers: headers);
+  final response = await http.get(
+      Uri.parse('$urlBase$urlDocumentTypes?page=$page'),
+      headers: headers());
   return DocumentTypeResult.fromJson(jsonDecode(response.body));
 }
 
@@ -79,9 +82,9 @@ Future<List<Correspondent>> fetchAllCorrespondents() async {
 }
 
 Future<CorrespondentResult> fetchCorrespondentsPaged(int page) async {
-  final headers = {"Authorization": "Token $token"};
   final response = await http.get(
       Uri.parse('$urlBase$urlCorrespondents?page=$page'),
-      headers: headers);
-  return CorrespondentResult.fromJson(jsonDecode(response.body));
+      headers: headers());
+  return CorrespondentResult.fromJson(
+      json.decode(response.body, reviver: transformEncoding));
 }
