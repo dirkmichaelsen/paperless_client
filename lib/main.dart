@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:paperless_client/correspondent.dart';
-import 'package:paperless_client/rest_api.dart';
+import 'package:paperless_client/correspondents.dart';
 
 void main() {
   runApp(const PaperlessClientApp());
@@ -64,26 +63,18 @@ class _PaperlessClientPageState extends State<PaperlessClientPage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
-      body: FutureBuilder<List<Correspondent>>(
-          future: fetchAllCorrespondents(),
-          builder: (context, snapshot) {
-            if (snapshot.hasData) {
-              print("Anzahl Tags: ${snapshot.data!.length}");
-              return ListView.builder(
-                itemBuilder: (BuildContext, index) {
-                  return Card(
-                    child: ListTile(
-                      title: Text(snapshot.data!.elementAt(index).name),
-                    ),
-                  );
-                },
-                itemCount: snapshot.data!.length,
-              );
-            } else if (snapshot.hasError)
-              return Text("Fehler");
-            else
-              return Text("Nichts");
-          }),
+      body: Builder(builder: (context) {
+        return Center(
+          child: OutlinedButton(
+            key: const Key('correspondent_button'),
+            child: const Text('Correspondents'),
+            onPressed: () {
+              Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) => const CorrespondentsScreen()));
+            },
+          ),
+        );
+      }),
       // floatingActionButton: FloatingActionButton(
       //   onPressed: _incrementCounter,
       //   tooltip: 'Increment',
