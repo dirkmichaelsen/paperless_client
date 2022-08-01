@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:paperless_client/correspondents_screen.dart';
 import 'package:paperless_client/document_types_screen.dart';
+import 'package:paperless_client/tags_screen.dart';
 
 void main() {
   runApp(const PaperlessClientApp());
@@ -83,6 +84,14 @@ class _PaperlessClientPageState extends State<PaperlessClientPage> {
                 onPressed: () {
                   Navigator.of(context).push(MaterialPageRoute(
                       builder: (context) => const DocumentTypesScreen()));
+                },
+              ),
+              OutlinedButton(
+                key: const Key('tags_button'),
+                child: const Text('Tags'),
+                onPressed: () {
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context) => const TagsScreen()));
                 },
               ),
             ],
