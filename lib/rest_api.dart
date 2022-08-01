@@ -25,7 +25,7 @@ Map<String, String> headers() => {"Authorization": "Token $token"};
 Future<Tag> getTagById(int id) async {
   final response =
       await http.get(Uri.parse('$urlBase$urlTags/$id/'), headers: headers());
-  return Tag.fromJson(jsonDecode(response.body));
+  return Tag.fromJson(jsonDecode(response.body, reviver: transformEncoding));
 }
 
 Future<List<Tag>> fetchAllTags() async {
@@ -43,7 +43,8 @@ Future<List<Tag>> fetchAllTags() async {
 Future<TagResult> fetchTagsPaged(int page) async {
   final response = await http.get(Uri.parse('$urlBase$urlTags?page=$page'),
       headers: headers());
-  return TagResult.fromJson(jsonDecode(response.body));
+  return TagResult.fromJson(
+      jsonDecode(response.body, reviver: transformEncoding));
 }
 
 // --- Document Types ---
@@ -64,7 +65,8 @@ Future<DocumentTypeResult> fetchDocumentTypesPaged(int page) async {
   final response = await http.get(
       Uri.parse('$urlBase$urlDocumentTypes?page=$page'),
       headers: headers());
-  return DocumentTypeResult.fromJson(jsonDecode(response.body));
+  return DocumentTypeResult.fromJson(
+      jsonDecode(response.body, reviver: transformEncoding));
 }
 
 // --- Correspondents ---
