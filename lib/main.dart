@@ -70,29 +70,58 @@ class _PaperlessClientPageState extends State<PaperlessClientPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              OutlinedButton(
-                key: const Key('correspondent_button'),
-                child: const Text('Correspondents'),
-                onPressed: () {
-                  Navigator.of(context).push(MaterialPageRoute(
-                      builder: (context) => const CorrespondentsScreen()));
-                },
+              Row(
+                children: [
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: OutlinedButton(
+                        key: const Key('correspondent_button'),
+                        child: const Text('Correspondents'),
+                        onPressed: () {
+                          Navigator.of(context).push(MaterialPageRoute(
+                              builder: (context) =>
+                                  const CorrespondentsScreen()));
+                        },
+                      ),
+                    ),
+                  ),
+                ],
               ),
-              OutlinedButton(
-                key: const Key('document_types_button'),
-                child: const Text('Document Types'),
-                onPressed: () {
-                  Navigator.of(context).push(MaterialPageRoute(
-                      builder: (context) => const DocumentTypesScreen()));
-                },
+              Row(
+                children: [
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: OutlinedButton(
+                        key: const Key('document_types_button'),
+                        child: const Text('Document Types'),
+                        onPressed: () {
+                          Navigator.of(context).push(MaterialPageRoute(
+                              builder: (context) =>
+                                  const DocumentTypesScreen()));
+                        },
+                      ),
+                    ),
+                  ),
+                ],
               ),
-              OutlinedButton(
-                key: const Key('tags_button'),
-                child: const Text('Tags'),
-                onPressed: () {
-                  Navigator.of(context).push(MaterialPageRoute(
-                      builder: (context) => const TagsScreen()));
-                },
+              Row(
+                children: [
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: OutlinedButton(
+                        key: const Key('tags_button'),
+                        child: const Text('Tags'),
+                        onPressed: () {
+                          Navigator.of(context).push(MaterialPageRoute(
+                              builder: (context) => const TagsScreen()));
+                        },
+                      ),
+                    ),
+                  ),
+                ],
               ),
             ],
           ),
